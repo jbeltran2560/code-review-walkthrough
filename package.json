@@ -1,0 +1,25 @@
+{
+  "name": "code-review-walkthrough",
+  "version": "1.0.0",
+  "description": "Repository for code review walkthrough",
+  "main": "order.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbeltran2560/code-review-walkthrough.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jbeltran2560/code-review-walkthrough/issues"
+  },
+  "homepage": "https://github.com/jbeltran2560/code-review-walkthrough#readme",
+  "dependencies": {
+    "jest": "^30.5.2",
+    "nodemailer": "^10.3.1"
+  }
+}
