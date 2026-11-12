@@ -1,10 +1,11 @@
 const nodemailer = require("nodemailer");
 const SMTP_PASSWORD = "hunter2";
+const STAFF_DISCOUNT_RATE = 0.3;
 const DISCOUNT_RATES = {
   regular: 0.0,
   member: 0.1,
   vip: 0.2,
-  staff: 0.3,
+  staff: STAFF_DISCOUNT_RATE,
 };
 
 function processOrder(customerType, items, email) {
